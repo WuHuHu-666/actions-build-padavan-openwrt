@@ -55,10 +55,10 @@ echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >> .config     # SS server
 #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config #集成trojan执行文件(1.1M左右)，如果不集成，会从网上下载下来执行，不影响正常使用
 
 #  代理
-echo "CONFIG_FIRMWARE_INCLUDE_TUNSAFE=n" >> .config      # TUNSAFE
-echo "CONFIG_FIRMWARE_INCLUDE_KUMASOCKS=y" >> .config    # KUMA
-echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config       # srelay
-echo "CONFIG_FIRMWARE_INCLUDE_IPT2SOCKS=n" >> .config    # IPT2
+#echo "CONFIG_FIRMWARE_INCLUDE_TUNSAFE=n" >> .config      # TUNSAFE
+#echo "CONFIG_FIRMWARE_INCLUDE_KUMASOCKS=y" >> .config    # KUMA
+#echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config       # srelay
+#echo "CONFIG_FIRMWARE_INCLUDE_IPT2SOCKS=n" >> .config    # IPT2
 #echo "CONFIG_FIRMWARE_INCLUDE_MICROSOCKS=y" >> .config  # MICRO
 
 # 文件
@@ -71,19 +71,19 @@ echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config        # adbyby plus+
 # echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config # ADG 
 
 # DNS 有关
-echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config # DNS-FORWARDER
-echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config     # smartdns
-echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNSBIN=y" >> .config  # smartdns二进制文件
+#echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config # DNS-FORWARDER
+#echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config     # smartdns
+#echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNSBIN=y" >> .config  # smartdns二进制文件
 
 
 # 穿透
-echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config         # 内网穿透FRPC
-echo "CONFIG_FIRMWARE_INCLUDE_FRPS=y" >> .config         # 内网穿透FRPS
-echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config      # 阿里DDNS
+#echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config         # 内网穿透FRPC
+#echo "CONFIG_FIRMWARE_INCLUDE_FRPS=y" >> .config         # 内网穿透FRPS
+#echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config      # 阿里DDNS
 
 # 其他
-echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config    # MENTOHUST 锐捷认证
-echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config   # SCUT校园网客户端 
+#echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config    # MENTOHUST 锐捷认证
+#echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config   # SCUT校园网客户端 
 
 # Default
 
