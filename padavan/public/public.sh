@@ -71,7 +71,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n" >> .config  # adgHome
 echo "CONFIG_FIRMWARE_INCLUDE_KOOLPROXY=n" >> .config    # KP广告过滤
 
 # DNS 有关
-echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config # DNS-FORWARDER
+echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=y" >> .config # DNS-FORWARDER
 echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config     # smartdns
 echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNSBIN=y" >> .config  # smartdns二进制文件
 
